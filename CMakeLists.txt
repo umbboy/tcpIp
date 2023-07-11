@@ -3,4 +3,4 @@ project(tcpIp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(tcpIp main.cpp hello_client.cpp echo_server.cpp echo_client.cpp)
+add_executable(tcpIp chapter04/main.cpp chapter04/hello_client.cpp chapter04/echo_server.cpp chapter04/echo_client.cpp)
